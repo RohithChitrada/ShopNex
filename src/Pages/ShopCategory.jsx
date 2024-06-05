@@ -9,6 +9,7 @@ const ShopCategory = (props) => {
   const productsPerPage = 12;
   const [page, setPage] = useState(1);
   const [sorting, setSorting] = useState('');
+  
 
   let filteredProducts;
 
